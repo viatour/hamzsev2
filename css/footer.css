@@ -1,0 +1,36 @@
+.footer {
+	/*osition: fixed;*/
+	bottom: 0;
+	color: white;
+	/*line-height: 100px; /* Vertically center the text there */
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	height: 100px;
+	margin-top: -100px;
+}
+
+#copyright {
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-size: 1vw;
+}
+
+.footerimg {
+	margin-left: 20px;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.wrapper-inside {
+	padding: 20px;
+	padding-bottom: 100px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
+	#copyright {
+	font-size: 4.5vw;
+}
+ } 

@@ -1,0 +1,46 @@
+.topnav {
+	margin: 10px 5px 10px 5px;
+}
+
+.topnav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+    overflow: hidden;
+	background-color: rgba(20,20,20,0.5);
+	/*background-color: red;*/
+	border-bottom-left-radius:14px; 
+	border-top-right-radius:14px;
+}
+
+.topnav li {
+	float: left;
+}
+
+.topnav ul li {
+	color: white;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.topnav ul li a {
+	display: block;
+    color: crimson;
+	text-decoration: none;
+	padding: 14px 22px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-left-radius:14px; 
+	border-top-right-radius:14px;
+	font-size: 17px;
+}
+
+.active {
+	background-color:#fc6900;
+	border-bottom-left-radius:14px; 
+	border-top-right-radius:14px;
+}
+
+.topnav a:hover:not(.active) {
+    background-color: #333;
+}
