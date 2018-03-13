@@ -5,21 +5,16 @@ body {
 	height: 100%;
 }
 
-/*#felsorolas li {
-	font-size: 30px;
-	list-style-type: none;
-	padding: 20px;
+.mobil {
+	display: none;
+}
 
-}
-#felsorolas li a {
-	text-decoration:none;
-	color: crimson;
-	background-color: black;
-	padding: 8px;
-}
-*/
-td a:hover {
-	background-color: #333;
+.mobil h1 {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 300px;
+	color: orange;
+	font-weight: bold;
 }
 
 table {
@@ -37,14 +32,15 @@ td a {
 	padding: 10px 20px;
 }
 
-td {
-	/*text-align: center;*/
+
+table tr td {
+	text-align: center;
 	padding: 20px 40px;
 }
 
 
-table tr td {
-	text-align: center;
+td a:hover {
+	background-color: #333;
 }
 
 @media only screen and (min-device-width : 480px) and (max-device-width : 720px) {
@@ -53,8 +49,19 @@ table tr td {
 	}
  } 
  
- @media only screen and (min-device-width : 300px) and (max-device-width : 479px) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 479px) {
 	td a {
 		font-size: 4vw;
+	}
+ } 
+ 
+ 
+@media only screen and (min-device-width : 300px) and (max-device-width : 720px) {
+
+	.tabla {
+		display: none;
+	}
+	.mobil {
+		display: inline;
 	}
  } 
