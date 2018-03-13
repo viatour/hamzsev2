@@ -12,9 +12,10 @@ body {
 .mobil h1 {
 	margin: 0px;
 	padding: 0px;
-	margin-bottom: 600px;
+	margin-bottom: 700px;
 	color: orange;
 	font-weight: bold;
+	text-align: center;
 }
 
 table {
