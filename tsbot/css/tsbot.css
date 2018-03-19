@@ -8,6 +8,7 @@
 }
 
 body {
+	font-family: "Century Gothic", sans-serif;
 	background: url(../img/bg_ps.jpg) no-repeat;
 	background-size: cover;
 	margin: 0;
