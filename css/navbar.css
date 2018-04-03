@@ -44,3 +44,43 @@
 .topnav a:hover:not(.active) {
     background-color: #333;
 }
+
+/*Dropdown*/
+
+.dropbtn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    min-width: 130px;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(20,20,20,0.5);
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius:14px; 
+	border-top-right-radius:14px;
+}
+
+.dropdown-content a {
+    color: crimson;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.dropdown-content a:hover {background-color: #fc6900}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
