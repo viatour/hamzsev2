@@ -84,3 +84,8 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.space{
+	margin-right: 0px;
+	margin-left: 10px;
+}
