@@ -7,7 +7,7 @@ body {
 
 table {
 	border: 0px;
-	border-collapse: collapse;
+	border-collapse: separate;
 	margin-top: 50px;
 	margin-bottom: 600px;
 }
@@ -20,8 +20,13 @@ table tr td a p{
 }
 
 
-table tr td a p {
+table tr td {
 	background-color: black;
+}
+
+p {
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -35,8 +40,20 @@ table tr td {
 }
 
 
-td p:hover {
+td:hover {
 	background-color: #333;
 }
 
+@media screen and (max-width: 992px) {
+  table tr td a {
+    font-size: 3vw;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  table tr td a {
+    font-size: 2vw;
+  }
+}
  
