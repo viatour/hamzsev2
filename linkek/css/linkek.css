@@ -12,12 +12,20 @@ table {
 	margin-bottom: 600px;
 }
 
-td a {
+table tr td a p{
 	text-decoration: none;
 	color: crimson;
-	font-size: 40px;
+	font-size: 2em;
+	padding: 20px 30px;
+}
+
+
+table tr td a p {
 	background-color: black;
-	padding: 10px 20px;
+}
+
+a {
+	text-decoration: none;
 }
 
 
@@ -27,26 +35,20 @@ table tr td {
 }
 
 
-td a:hover {
+td p:hover {
 	background-color: #333;
 }
 
-@media only screen and (min-device-width : 480px) and (max-device-width : 720px) {
-	td a {
-		font-size: 5vw;
-	}
- } 
- 
-@media only screen and (min-device-width : 300px) and (max-device-width : 479px) {
-	td a {
-		font-size: 4vw;
-	}
- } 
- 
- 
-@media only screen and (min-device-width : 300px) and (max-device-width : 720px) {
+@media screen and (max-width: 992px) {
+  table tr td a {
+    font-size: 4vw;
+  }
+}
 
-	.mobil {
-		display: inline;
-	}
- } 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  table tr td a {
+    font-size: 3vw;
+  }
+}
+ 
