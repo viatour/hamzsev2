@@ -39,16 +39,4 @@ td p:hover {
 	background-color: #333;
 }
 
-@media screen and (max-width: 992px) {
-  table tr td a {
-    font-size: 4vw;
-  }
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  table tr td a {
-    font-size: 3vw;
-  }
-}
  
