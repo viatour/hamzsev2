@@ -1,39 +1,42 @@
 * {
-font-family: "Century Gothic",sans-serif;
+    font-family: "Century Gothic",sans-serif;
 }
 
 body {
-background-color: black;
+    background-color: black;
 }
 
 h1 {
-color:grey;
-text-align: center;
-font-size:56px;
+    color:grey;
+    text-align: center;
+    font-size:56px;
+    margin-bottom: 2em;
 }
 
-#button1 {
-background-color: green;
-border: none;
-color: black;
-padding: 150px 200px;
-text-align: center;
-text-decoration: none;
-font-weight: bold;
-float: left;
-margin-left: 50px;
-font-size: 64px;
+.gombok{
+    display: inline;
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 64px;
+    padding: 50px 0;
+    border-radius: 20px;
+    
 }
 
-#button2 {
-background-color: green;
-border: none;
-color: white;
-padding: 150px 200px;
-text-align: center;
-text-decoration: none;
-font-weight: bold;
-float: right;
-margin-right: 50px;
-font-size: 64px;
+#fekete{
+    float: left;
+    color: black;
+    margin-left: 30px;
+    width: 45%;
+    
+}
+
+#feher{
+    float: right;
+    margin-right: 30px;
+    width: 45%;
 }
